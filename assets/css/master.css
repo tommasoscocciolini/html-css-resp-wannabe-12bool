@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+
+[class^="col-"]{
+  text-align: center;
+}
+
 img{
   height: 200px;
 }

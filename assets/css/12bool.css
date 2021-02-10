@@ -109,9 +109,6 @@
   margin-left: 100%;
 }
 
-[class^="col-"]{
-  text-align: center;
-}
 
 
 @media all and (max-width:767px) {
@@ -161,6 +158,10 @@
 
   .col-xs-12{
     width: 100%;
+  }
+
+  .col-offset-xs-0{
+    margin-left: 0;
   }
 
   .col-offset-xs-1{
@@ -259,6 +260,10 @@
 
   .col-md-12{
     width: 100%;
+  }
+
+  .col-offset-md-0{
+    margin-left: 0;
   }
 
   .col-offset-md-1{
